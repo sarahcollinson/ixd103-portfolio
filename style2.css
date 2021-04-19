@@ -1,0 +1,217 @@
+/*------ GLOBAL STYLING ------*/
+body{
+    color: #333;
+    font-style: normal;
+    font-size: 3;
+}
+
+section {
+    width:100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    color:#fafafa;
+}
+
+.background-color {
+    padding: 4em 0;
+    background:#f6c0da;
+}
+
+
+/*------ TYPOGRAPHY ------*/
+
+h1, h2, {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {font-size: 4em; 
+    margin-bottom: 1em 0;
+    background:#f6c0da;
+}
+
+h2 {font-size: 4.5em; 
+    margin: 1em 0; 
+    color: #d8172a;}
+
+p {font-size: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    font-weight: 200;
+}
+
+header h1 {
+    margin: 1em 0;
+    font-size: 5.25em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.follow {
+    margin-bottom: 5em}
+
+.azure {
+    background: #d8172a;
+    color: #fafafa;
+    padding: 3em 0
+}
+
+.sectionTitle {
+	width: 100%;
+	background: #f6c0da;
+    padding: 3em 0;
+}
+
+/*------ LINKS ------*/
+
+a {
+    color: #d8172a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #103254;
+    border-bottom: 1px;
+}
+
+/*------ NAVIGATION ------*/
+
+nav {
+    top: 0;
+    left: 0;
+    margin: 0%;
+    width: 100%;
+    background-color:#d8172a;
+    padding: 1em 0;
+    font-size: 0.85em;
+    color: #fafafa;
+}
+
+nav ul {
+    padding-right: 15vw;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    
+}
+
+nav a:link {
+    color: #D95588;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #103254;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo {
+    font-family: lato, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: left;
+    text-transform: none;
+    padding-right: 30vw;
+}
+
+/*------ IMAGES ------*/
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/*------ PORTFOLIO ------*/
+/*.portfolio h2 { max-width: 960px; margin: 3em auto;} */
+
+.portfolio {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-gap: 10px; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    font-size: 3em;
+}
+
+.portfolio h1 {
+    text-align: center;
+    font-family: lato, sans-serif;
+}
+li {
+    position: relative;
+}
+
+portfolio-img {}
+
+portfolio-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 2em;
+    background: #f6c0da;
+}
+
+/*------ FOOTER ------*/
+footer {
+    text-align: center;
+    font-size: 0.707;
+    padding: 2em 0 8em 0;
+    margin: auto;
+    color: #333;
+    background:#f6c0da;
+}
+
+.connections {
+    position: relative;
+    margin: 0 auto;
+}
+
+.connections ul {
+    margin: 1em 10px;
+    padding: 0;
+}
+
+.connections li {
+    margin; 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 3em 0;
+}
+
+.connections a:link {
+    border-bottom: 
+}
+
+.connections img,
+.connections svg {
+    border: none;
+}
+
+.connections a:hover svg path {
+    fill: #103254;
+    transition: all 0.3s, ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    section, header {
+        width: 90%;
+        margin: auto;
+    }
+    
+    header h1 {font-size: 3.25em}
+}
